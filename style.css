@@ -67,6 +67,8 @@ header a:hover {
     color: aqua;
 }
 
+/*......showcase area...... */
+
 .showcase {
     background-image: url(/pexel2.jpg);
     background-position: center;
@@ -94,6 +96,9 @@ header a:hover {
     width: 80%;
 
 }
+
+/* newsletter */
+
 .newsletter {
     background-color: #35424a;
     color: #ffffff;
@@ -103,14 +108,55 @@ header a:hover {
     align-items: center;
     justify-content: space-between;
 }
+
+.newsletter input[type="email"] {
+    width: 250px;
+    height: 25px;
+    padding: 4px;
+}
 .newsletter button {
-    background-color: #e8491d; 
+    background-color: #e8491d;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    border-color: aqua;
+    border-radius: 10px; 
 }
 
 .newsletter button:hover {
    background-color: aqua;
    color: black;
 }
+
+/* boxes */
+ #box {
+    margin-top: 20px;
+ }
+
+ .web {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #box .box-1 img {
+    width: 100px;
+    height: auto; 
+ }
+
+ /* footer */
+
+ footer {
+     margin-top: 20px;
+     padding: 20px;
+     color: #ffffff;
+     background-color:#e8491d;
+     text-align: center;
+
+ }
+
 
 /* .newsletter {
     background-color: #35424a;
