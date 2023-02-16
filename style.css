@@ -92,7 +92,7 @@ header a:hover {
 
 .showcase p {
     font-size: 20px;
-    color: #e8491d;
+    /* color: black; */
     width: 80%;
 
 }
@@ -138,12 +138,27 @@ header a:hover {
     padding-right: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
  }
+ 
+.box-1 {
+    width: 350px;
+    border: #35424a 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition-property: width;
+}
+
+.box-1:hover {
+    width: 400px;
+    background-color:rgb(169, 169, 169);
+
+}
 
  #box .box-1 img {
     width: 100px;
     height: auto; 
+    text-align: center;
  }
 
  /* footer */
