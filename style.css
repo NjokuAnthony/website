@@ -67,6 +67,14 @@ header a:hover {
     color: aqua;
 }
 
+.dark {
+    background: #35424a;
+    padding: 15px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*......showcase area...... */
 
 .showcase {
@@ -119,8 +127,8 @@ header a:hover {
     padding-left: 20px;
     padding-right: 20px;
     color: #ffffff;
-    border-color: aqua;
-    border-radius: 10px; 
+    border-color: black;
+    border-radius: 5px; 
 }
 
 .newsletter button:hover {
@@ -159,6 +167,30 @@ header a:hover {
     width: 100px;
     height: auto; 
     text-align: center;
+ }
+
+ /* aside  */
+
+ .orange {
+     display: flex;
+     justify-content: space-between;
+     margin: 20px;
+     padding: 20px;
+     width: auto;
+     align-items: center;
+ }
+
+ aside .sidebar {
+    width: 50%;
+    margin-top: 10px;
+
+ }
+
+ /* Article new */
+
+ article .new {
+     width: 55%;
+
  }
 
  /* footer */
