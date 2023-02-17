@@ -68,11 +68,37 @@ header a:hover {
 }
 
 .dark {
+    background: #576873;
+    padding: 15px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 3px solid #d68670;
+    border-radius: 30px;
+}
+
+.dark:hover {
+    background-color: #d68670;
+    border: 2px solid #35424a;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.black {
     background: #35424a;
     padding: 15px;
     color: #ffffff;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 10px;
+    border: 2px solid #e8491d;
+    border-radius: 10px;
+}
+
+.black:hover {
+    background-color: #d68670;
+    border: 2px solid #35424a;
+    border-radius: 20px;
+    color: #ffffff;
 }
 
 /*......showcase area...... */
@@ -178,6 +204,15 @@ header a:hover {
      padding: 20px;
      width: auto;
      align-items: center;
+     
+ }
+
+.purple {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    width: auto;
  }
 
  aside .sidebar {
@@ -185,11 +220,56 @@ header a:hover {
     margin-top: 10px;
 
  }
+ .color {
+    background: #576873;
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #d68670;
+    border-radius: 30px;
+    height: 300px;
+}
+.color:hover {
+    background-color: #d68670;
+    border: 2px solid #35424a;
+    border-radius: 20px;
+    color: #ffffff;
+}
+ .color h3 {
+     color: black;
+     font-weight: bold;
+ }
+
+.clean {
+    background: #b29d97;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: #35424a 2px solid;
+    border-radius: 10px; 
+    padding: 10px;
+}
+.clean:hover {
+    background-color: #576873;
+    color: #ffffff;
+    border: #e8491d 2px solid;
+}
+
+.mango li {
+    list-style: none;
+}
+
+.mango h1 {
+    margin-top: 5px;
+}
 
  /* Article new */
 
- article .new {
-     width: 55%;
+ .new {
+     /* width: 55%; */
+     padding-right: 30px;
 
  }
 
@@ -203,6 +283,7 @@ header a:hover {
      text-align: center;
 
  }
+
 
 
 /* .newsletter {
